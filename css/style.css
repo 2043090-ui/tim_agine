@@ -56,11 +56,31 @@ button{
     background-color: transparent;
     border: none;
     cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card button{
+    background-color: #07020D;
+    color: #5db7de;
+
+    height: 44px;
+    width: 44px;
+
+    border-radius: 5px;
+
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 
 img{
     max-width: 100%;
 }
+
+
 
 /*---------------------------------------------------------
 COMPONENTS
@@ -109,4 +129,18 @@ COMPONENTS
 .contenu{
     padding: 100px 0;
 }
+
+.contenu .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.card{
+    
+
+    position: relative;
+}
+
+/*Footer*/
 
