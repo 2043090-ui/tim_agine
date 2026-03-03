@@ -194,3 +194,39 @@ COMPONENTS
 
 
 /*Modale*/
+
+.zoom{
+    max-height: 80%;
+
+    cursor: pointer;
+    
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+}
+
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    padding: 30px;
+
+    z-index: 99999;
+
+    background-color: rgba(0, 0, 0, .8);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal.visible{
+    display: flex;
+}
