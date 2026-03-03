@@ -161,5 +161,36 @@ COMPONENTS
 .media{
     background-color:#272727 ;
     border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
     padding: 10px;
+
+    position: fixed;
+    top: 200px;
+    left: 0px;
 }
+
+.media img{
+    width: 40px;
+    height: 40px;
+
+    display: block;
+}
+
+.media ul{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    display: grid;
+    gap: 10px;
+
+}
+
+ .media a:hover{
+    position: relative;
+    right: 3px;
+}
+
+
+/*Modale*/
