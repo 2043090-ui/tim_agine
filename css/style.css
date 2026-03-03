@@ -144,3 +144,22 @@ COMPONENTS
 
 /*Footer*/
 
+.footer{
+    text-align: center;
+    font-size: 1.25rem;
+
+    background-color: #5db7de ;
+    color: #fff;
+
+    
+
+    padding: 30px ;
+}
+
+/*Médias sociaux*/
+
+.media{
+    background-color:#272727 ;
+    border-top-right-radius: 15px;
+    padding: 10px;
+}
